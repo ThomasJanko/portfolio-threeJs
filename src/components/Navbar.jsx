@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <div>
         <Link to={'/'} className='flex items-center gap-2' onClick={() => {setActive(''); window.scrollTo(0, 0)}}>
-          <img src={logo} alt='logo' className='w-10 h-10 object-contain'/>
+          <img src={logo} alt='logo' className='w-14 h-14 object-contain'/>
           <p className='text-white text-[18px] font-bold cursor-pointer flex'>Thomas&nbsp;<span className='md:block hidden'> | Fullstack Developper </span></p>
         </Link>
         </div>
