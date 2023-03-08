@@ -32,6 +32,7 @@ import {
     airbnb,
     netflix,
     gestimum,
+    revochat,
 
   } from "../assets";
   
@@ -148,10 +149,10 @@ import {
       iconBg: "#E6DEDD",
       date: "Avril 2021 - Juillet 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Stage de DUT, premier stage en développement web.",
+        "Formation de 2 semaines en autonomie sur Vue JS, Vuetify et Laravel .",
+        "Collaboration avec un alternant (developpeur backend) pour créer une plateforme web afin de remplacer le processus d'organisation des formations de l'entreprise .",
+        "Participation à la création du projet (maquette, base de données...)",
       ],
     },
 
@@ -162,11 +163,14 @@ import {
       iconBg: "#383E56",
       date: "Octobre 2021 - Juin 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Projet Ydays (école) dans une startup de 3 personnes .",
+        "Collaboration avec 3 équipes de 4-5 personnes (marketing, 3D design et Informatique) .",
+        "Conception d'une application de panneau de score de Basket-ball dynamique et ergonomique afin de remplacer les ancien tableau de score dans les gymnases .",
+        "Création d'une interface 'remote' (télécommande) et d'une interface 'screen' (écran d'affichage) afin de contôler toutes les variables d'un match .",
+        "Utilisation d'un server socket.io afin de réduire au maximum le délai de transmission entre la télécommande et l'affichage .",
+        "voir PDF ->"
       ],
+      pdf: ''
     },
 
     {
@@ -176,10 +180,23 @@ import {
       iconBg: "#E6DEDD",
       date: "Avril 2022 - Juillet 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Reprise du développement de la plateforme G-Formation .",
+        "Collaboration avec 2 nouveaux alternants .",
+        "Implementation de mails automatiques (Mailtrap) et début du lancement des tests au sein de l'entreprise .",
+        "Mis en place d'un serveur sur lequel est installé la première version de production (en interne) de la plateforme .",
+      ],
+    },
+    {
+      title: "Frontend Developer",
+      company_name: "Revochat",
+      icon: revochat,
+      iconBg: "#E6DEDD",
+      date: "Octobre 2022 - Mai 2023",
+      points: [
+        "Développement d'une application Web3 de messagerie instantannée en React JS.",
+        "Projet Ydays (école) avec une équipe de 7 développeurs .",
+        "Utilisation de la technologie du Web3.0 afin de créer une des premères application de chat sur la Blockchain et de garantir l'immuabilité de celle-ci .",
+        "Mis en production de cette application à l'aide de Smarts Contracts .",
       ],
     },
     
@@ -190,25 +207,15 @@ import {
       iconBg: "#383E56",
       date: "Septembre 2022 - Septembre 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Reprise du développement de la plateforme G-Formation avec les mêmes alternants .",
+        "Implementations d'un serveur smtp afin d'envoyer les mails aux clients .",
+        "Phase de test avec tous les services de l'entreprise afin de remonter les potentiels problèmes et de se familiariser avec la platforme .",
+        "Mis en place d'un plannificateur de tâches avec Laravel, permettant le déclanchement automatique de certaines fonctionnalités du site .",
+        "Ouverture de la plateforme à l'exterieur afin d'organiser de réelle formations avec des clients et partenaire Gestimum .",
+        "Création d'un site de pré-production afin de continuer les tests et l'ajout de nouvelles fonctionnalités .",
       ],
     },
-    // {
-    //   title: "Full stack Developer",
-    //   company_name: "Meta",
-    //   icon: meta,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2023 - Present",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
+    
   ];
   
   const testimonials = [

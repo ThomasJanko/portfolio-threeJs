@@ -32,6 +32,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import gestimum from "./company/gestimum.png";
 import sportizer_logo from "./company/sportizer_logo.svg";
+import revochat from "./company/revochat.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -80,5 +81,6 @@ export {
   netflix,
   gestimum,
   sportizer_logo,
+  revochat,
 
 };
