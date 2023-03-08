@@ -17,15 +17,42 @@ const Contact = () => {
   })
   const [loading, setloading] = useState(false)
 
-  const handleChange = () => {
+  const handleChange = (e) => {
+    const { name, value } = e.target;
 
+    setform({...form, [name]: value})
   }
 
-  const handleSubmit = () => {
-    
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setloading(true)
+
+    emailjs.send(
+      'service_wy41tiq',
+      'template_y18jt6o',
+        {
+          from_name: form.name,
+          to_name: 'Thomas',
+          from_email: form.email,
+          to_email: 'thomas78125@gmail.com',
+          message: form.message
+        },
+        'yLxSJ8A4tAdfoQ3GZ'
+      )
+      .then(() => {
+        setloading(false)
+        alert('Merci ! Je reviendrai vers vous dès que possible !')
+        setform({
+          name: '',
+          email: '',
+          message: ''
+        })
+      }, (error) => {
+        setloading(false)
+        console.log(error)
+        alert("Erreur lors de l'envoie")
+      })
   }
-
-
 
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
