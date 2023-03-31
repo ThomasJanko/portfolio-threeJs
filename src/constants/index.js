@@ -247,27 +247,7 @@ import {
   ];
   
   const projects = [
-    {
-      name: "G-Formation",
-      description:
-        "Mise en place d'une interface Web interconnectée dans le but de proposer des formations relatives à l'ERP GESTIMUM.",
-      tags: [
-        {
-          name: "vueJS",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "laravel",
-          color: "green-text-gradient",
-        },
-        {
-          name: "vuetify",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: g_formation,
-      source_code_link: "https://github.com/",
-    },
+   
     {
       name: "Sportizer",
       description:
@@ -288,6 +268,27 @@ import {
       ],
       image: sportizer,
       source_code_link: "https://github.com/Sportizer",
+    },
+    {
+      name: "G-Formation",
+      description:
+        "Mise en place d'une interface Web interconnectée dans le but de proposer des formations relatives à l'ERP GESTIMUM.",
+      tags: [
+        {
+          name: "vueJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "laravel",
+          color: "green-text-gradient",
+        },
+        {
+          name: "vuetify",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: g_formation,
+      source_code_link: "https://github.com/",
     },
     {
       name: "Netflix clone",
