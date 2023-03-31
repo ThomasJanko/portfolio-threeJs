@@ -33,6 +33,7 @@ import {
     netflix,
     gestimum,
     revochat,
+    instanative
 
   } from "../assets";
   
@@ -286,7 +287,7 @@ import {
         },
       ],
       image: sportizer,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Sportizer",
     },
     {
       name: "Netflix clone",
@@ -307,7 +308,7 @@ import {
         },
       ],
       image: netflix,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/ThomasJanko/Netflix/tree/master",
     },
     {
       name: "AirBnb clone",
@@ -328,7 +329,25 @@ import {
         },
       ],
       image: airbnb,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/ThomasJanko/airbnb-clone",
+    },
+    {
+      name: "Instagram React native",
+      description:
+        "Reproduction du réseau social Instagram en application mobile. Utilistation de React native et Firebase. Possibilité pour les utilisateurs de créer un compte, s'authentifier, d'ajouter un post, de liker un post, de commenter un post, de voir les posts des utilisateurs...",
+      tags: [
+        {
+          name: "reaxct-native",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "green-text-gradient",
+        },
+        
+      ],
+      image: instanative,
+      source_code_link: "https://github.com/ThomasJanko/InstaReactNative",
     },
   ];
   
