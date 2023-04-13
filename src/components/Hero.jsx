@@ -2,9 +2,12 @@ import React from 'react'
 import { motion }  from 'framer-motion'
 import { styles } from '../styles'
 import { ComputersCanvas } from './canvas'
+import Tilt from 'react-tilt'
+import { fadeIn } from '../utils/motion'
 
 const Hero = () => {
   return (
+    <>
     <section className='relative w-full h-screen mx-auto'>
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
         <div className='flex flex-col justify-center items-center mt-5'>
@@ -19,7 +22,14 @@ const Hero = () => {
             </p>
         </div>
       </div>
+      
+      <div className='w-full h-full pt-32'>
         <ComputersCanvas />
+      </div>
+
+      
+
+       
 
         <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
           <a href="#about">
@@ -31,8 +41,22 @@ const Hero = () => {
                  />
             </div>
           </a>
+          
         </div>
+        
     </section>
+
+    <Tilt className="w-1/3 mx-auto">
+      <motion.div variants={fadeIn("down", "spring", 0.5, 4.75)}>
+        <div options={{max: 25, scale:1 ,speed: 100}}>
+          <a href="../../public/CV.pdf" download="CV_JANKOWSKI_Thomas.pdf" >
+            <img className='rounded-md mx-auto' src="../../public/CV.PNG" alt="JANKOWSKI Thomas" />
+          </a>
+        </div>
+      </motion.div>
+    </Tilt>
+    
+    </>
   )
 }
 
