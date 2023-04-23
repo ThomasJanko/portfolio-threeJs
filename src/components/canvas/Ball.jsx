@@ -37,4 +37,26 @@ const BallCanvas = ({icon}) => (
   </Canvas>
 )
 
-export default BallCanvas
+const RoundedCard = ({icon}) => (
+  <div style={{
+    width: '100px',
+    height: '100px',
+    borderRadius: '50%',
+    boxShadow: '0 2px 4px rgba(255, 255, 255, 0.2)',
+    backgroundImage: `url(${icon})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    fontSize: '24px',
+    fontWeight: 'bold',
+    color: '#fff',
+    textShadow: '0 1px 2px rgba(255, 255, 255, 0.2)',
+    letterSpacing: '2px'
+  }}>
+    <div style={{ transform: 'rotateX(90deg)' }}>⚽</div>
+  </div>
+);
+
+export {BallCanvas, RoundedCard};

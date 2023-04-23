@@ -42,6 +42,7 @@ import g_formation from "./g-formation.png";
 import airbnb from "./airbnb.png";
 import netflix from "./netflix.png";
 import instanative from "./instanative.jpg";
+import taskmaster from "./taskmaster.jpg";
 
 export {
   logo,
@@ -83,6 +84,7 @@ export {
   gestimum,
   sportizer_logo,
   revochat,
-  instanative
+  instanative,
+  taskmaster,
 
 };

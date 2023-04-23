@@ -33,7 +33,8 @@ import {
     netflix,
     gestimum,
     revochat,
-    instanative
+    instanative,
+    taskmaster,
 
   } from "../assets";
   
@@ -45,6 +46,10 @@ import {
     {
       id: "work",
       title: "Work",
+    },
+    {
+      id: "tech",
+      title: "Tech",
     },
     {
       id: "contact",
@@ -338,7 +343,7 @@ import {
         "Reproduction du réseau social Instagram en application mobile. Utilistation de React native et Firebase. Possibilité pour les utilisateurs de créer un compte, s'authentifier, d'ajouter un post, de liker un post, de commenter un post, de voir les posts des utilisateurs...",
       tags: [
         {
-          name: "reaxct-native",
+          name: "react-native",
           color: "blue-text-gradient",
         },
         {
@@ -349,6 +354,24 @@ import {
       ],
       image: instanative,
       source_code_link: "https://github.com/ThomasJanko/InstaReactNative",
+    },
+    {
+      name: "Taskmaster React native",
+      description:
+        "Création d'une application de gestion de tâches avec React Native. Ajout d'un dark theme, mutli-langue, prise de photo, animation de chargement, notifications, redux store...",
+      tags: [
+        {
+          name: "react-native",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "redux-persist",
+          color: "green-text-gradient",
+        },
+        
+      ],
+      image: taskmaster,
+      source_code_link: "https://github.com/ThomasJanko-react-native/react-native-group",
     },
   ];
   
