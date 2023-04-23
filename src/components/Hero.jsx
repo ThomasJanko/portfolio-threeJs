@@ -4,6 +4,7 @@ import { styles } from '../styles'
 import { ComputersCanvas } from './canvas'
 import Tilt from 'react-tilt'
 import { fadeIn } from '../utils/motion'
+import CV from '../../public/CV.PNG'
 
 const Hero = () => {
   return (
@@ -49,8 +50,8 @@ const Hero = () => {
     <Tilt className="w-1/3 mx-auto">
       <motion.div variants={fadeIn("down", "spring", 0.5, 4.75)}>
         <div options={{max: 25, scale:1 ,speed: 100}}>
-          <a href="../../public/CV.pdf" download="CV_JANKOWSKI_Thomas.pdf" >
-            <img className='rounded-md mx-auto' src="../../public/CV.PNG" alt="JANKOWSKI Thomas" />
+          <a href={CV} download="CV_JANKOWSKI_Thomas.pdf" >
+            <img className='rounded-md mx-auto' src={CV} alt="JANKOWSKI Thomas" />
           </a>
         </div>
       </motion.div>

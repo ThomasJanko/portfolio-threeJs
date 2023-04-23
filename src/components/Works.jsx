@@ -38,7 +38,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
 
 const Works = () => {
   return (
-    <>
+    <div>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Mes projets</p>
         <h2 className={styles.sectionHeadText}>Projets.</h2>
@@ -54,7 +54,7 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
-    </>
+    </div>
   )
 }
 

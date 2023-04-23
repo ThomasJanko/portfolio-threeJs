@@ -11,7 +11,7 @@ const Tech = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 768); // Change the threshold to the desired value
+      setIsMobile(window.innerWidth < 768); 
     };
 
     handleResize(); // Call the function on mount
