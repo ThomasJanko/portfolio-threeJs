@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "start": "vite preview --host",
+    "start": "vite preview --host portfolio.thomas-jan.fr",
     "preview": "vite preview"
   },
   "dependencies": {
