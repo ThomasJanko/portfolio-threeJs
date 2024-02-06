@@ -35,6 +35,7 @@ import {
     revochat,
     instanative,
     taskmaster,
+    spotify,
 
   } from "../assets";
   
@@ -219,6 +220,11 @@ import {
         "Mis en place d'un plannificateur de tâches avec Laravel, permettant le déclanchement automatique de certaines fonctionnalités du site .",
         "Ouverture de la plateforme à l'exterieur afin d'organiser de réelle formations avec des clients et partenaire Gestimum .",
         "Création d'un site de pré-production afin de continuer les tests et l'ajout de nouvelles fonctionnalités .",
+        "Mise à jour et maintenance de la plateforme G-formation .",
+        "Création d'une application de gestion de tickets interne (G-Tickets) avec des intégrations (Teams / Graph API) afin de faciliter et accélérer le traitement interne .",
+        "Refonte de l'espace privé Gestimum (espace Client) avec de nouvelles technologies (Vue.js / Express.js) et déploiement de la nouvelle version .",
+        "Développement d'une API d'interfaçage entre Gestimum et une société externe (Kaze) afin de facilité les interventions techniques pour les clients Gestimum .",
+        "Mise en production de l'espace privé, G-Ticket et de l'API d'interfaçage avec Docker sur un server Unbuntu.",
       ],
     },
     
@@ -248,6 +254,7 @@ import {
       designation: "CTO",
       company: "456 Enterprises",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
+      site_url: "",
     },
   ];
   
@@ -273,6 +280,7 @@ import {
       ],
       image: sportizer,
       source_code_link: "https://github.com/Sportizer",
+      site_url: "",
     },
     {
       name: "G-Formation",
@@ -294,6 +302,7 @@ import {
       ],
       image: g_formation,
       source_code_link: "https://github.com/Gestimum78120/Qualiopi",
+      site_url: "",
     },
     {
       name: "Netflix clone",
@@ -315,6 +324,7 @@ import {
       ],
       image: netflix,
       source_code_link: "https://github.com/ThomasJanko/Netflix/tree/master",
+      site_url: "",
     },
     {
       name: "AirBnb clone",
@@ -336,6 +346,7 @@ import {
       ],
       image: airbnb,
       source_code_link: "https://github.com/ThomasJanko/airbnb-clone",
+      site_url: "",
     },
     {
       name: "Instagram React native",
@@ -354,6 +365,7 @@ import {
       ],
       image: instanative,
       source_code_link: "https://github.com/ThomasJanko/InstaReactNative",
+      site_url: "",
     },
     {
       name: "Taskmaster React native",
@@ -372,6 +384,38 @@ import {
       ],
       image: taskmaster,
       source_code_link: "https://github.com/ThomasJanko-react-native/react-native-group",
+      site_url: ""
+    },
+    {
+      name: "Spotify Clone",
+      description:
+        `Reproduction du site de streaming Spotify. Utilistation de Next.js, Express.Js et MongoDb. Upload de musique via AWS S3, convertisseur de musique en mp3, création de playlist, ajout de musique dans une playlist, lecture de musique, recherche de musique, écoute en simultanée via des sockets...`,
+      tags: [
+        {
+          name: "nextjs14",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "talwindcss",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "socket.io",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "AWS S3",
+          color: "red-text-gradient",
+        },
+        
+      ],
+      image: spotify,
+      source_code_link: "https://github.com/orgs/Dev-Cloud-Spotify/repositories",
+      site_url: "http://spotify-front-end.thomas-jan.fr",
     },
   ];
   

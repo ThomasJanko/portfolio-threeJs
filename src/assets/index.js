@@ -43,6 +43,7 @@ import airbnb from "./airbnb.png";
 import netflix from "./netflix.png";
 import instanative from "./instanative.jpg";
 import taskmaster from "./taskmaster.jpg";
+import spotify from "./spotify.png";
 
 export {
   logo,
@@ -86,5 +87,6 @@ export {
   revochat,
   instanative,
   taskmaster,
+  spotify,
 
 };
