@@ -2,7 +2,7 @@ import React from 'react'
 import { motion }  from 'framer-motion'
 import { styles } from '../styles'
 import { ComputersCanvas } from './canvas'
-import Tilt from 'react-tilt'
+import Tilt from 'react-tilt/dist/tilt';
 import { fadeIn } from '../utils/motion'
 import CV from '../assets/CV.png'
 
