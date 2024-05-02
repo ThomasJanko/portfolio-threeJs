@@ -5,23 +5,12 @@ import {
     web,
     javascript,
     typescript,
-    html,
-    css,
     reactjs,
     redux,
     tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     vueJs,
     laravel,
@@ -36,6 +25,9 @@ import {
     instanative,
     taskmaster,
     spotify,
+    imaginify,
+    crypto_app,
+    smoldAI,
 
   } from "../assets";
   
@@ -302,7 +294,7 @@ import {
       ],
       image: g_formation,
       source_code_link: "https://github.com/Gestimum78120/Qualiopi",
-      site_url: "",
+      site_url: "https://g-formation.gestimum.com/",
     },
     {
       name: "Netflix clone",
@@ -346,7 +338,7 @@ import {
       ],
       image: airbnb,
       source_code_link: "https://github.com/ThomasJanko/airbnb-clone",
-      site_url: "",
+      site_url: "https://airbnb.thomas-jan.fr/",
     },
     {
       name: "Instagram React native",
@@ -415,7 +407,100 @@ import {
       ],
       image: spotify,
       source_code_link: "https://github.com/orgs/Dev-Cloud-Spotify/repositories",
-      site_url: "http://spotify-front-end.thomas-jan.fr",
+      site_url: "https://spotify-front-end.thomas-jan.fr",
+    },
+    {
+      name: "Imaginify",
+      description:
+        `SAAS de modification d'images avec une Intelligence Artificielle. Possibilité d'upload des images, de les télécharger, de les modifiers (upscale / format / couleurs ...)`,
+      tags: [
+        {
+          name: "nextjs14",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "talwindcss",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Clerk",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Shadcn-ui",
+          color: "red-text-gradient",
+        },
+        
+      ],
+      image: imaginify,
+      source_code_link: "https://github.com/ThomasJanko/imaginify",
+      site_url: "https://imaginify.thomas-jan.fr",
+    },
+    {
+      name: "SmoldAI",
+      description:
+        `Application regroupant plusieurs Intelligence Artificielle. Possibilité de générer du text, du code, des images, de la musqiue et des vidéos. Connexion avec O-auth, payment stripe, gestion des utilisateurs, des commandes, des abonnements...`,
+      tags: [
+        {
+          name: "nextjs14",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "talwindcss",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "O-auth",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Stripe",
+          color: "red-text-gradient",
+        },
+        
+      ],
+      image: smoldAI,
+      source_code_link: "https://github.com/orgs/zkerkeb-class/teams/kouci-thomas-et-leo/repositories",
+      site_url: "https://smold-ai.thomas-jan.fr",
+    },
+    {
+      name: "Crypto-app",
+      description:
+        `Application de transfert de cryptomonnaie. Possibilité de créer un compte, de s'authentifier, de voir son solde, de transférer de l'argent, de voir l'historique des transactions, envoie de message dans une transaction...`,
+      tags: [
+        {
+          name: "Solidity",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Metamask",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Hardhat",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Web3.js",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Ethereum",
+          color: "red-text-gradient",
+        },
+        
+      ],
+      image: crypto_app,
+      source_code_link: "https://github.com/ThomasJanko-Blockchain/crypto-wallet",
+      site_url: "https://crypto-app.thomas-jan.fr",
     },
   ];
   

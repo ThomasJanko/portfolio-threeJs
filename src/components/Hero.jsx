@@ -4,7 +4,7 @@ import { styles } from '../styles'
 import { ComputersCanvas } from './canvas'
 import Tilt from 'react-parallax-tilt';
 import { fadeIn } from '../utils/motion'
-import CV from '../assets/CV.png'
+import CV from '../assets/CV_05_24.png'
 
 const Hero = () => {
   return (

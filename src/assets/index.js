@@ -45,6 +45,10 @@ import instanative from "./instanative.jpg";
 import taskmaster from "./taskmaster.jpg";
 import spotify from "./spotify.png";
 
+import imaginify from "./imaginify.png";
+import smoldAI from "./smoldAI.png";
+import crypto_app from "./crypto-app.png";
+
 export {
   logo,
   backend,
@@ -88,5 +92,8 @@ export {
   instanative,
   taskmaster,
   spotify,
+  imaginify,
+  smoldAI,
+  crypto_app,
 
 };
